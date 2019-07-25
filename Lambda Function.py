@@ -57,3 +57,9 @@ print(a)
 num=[1,2,3,4,5,6,7,8,9]
 a=filter(lambda x: True if x%2==0 else False,num)
 print(list(a))    #[2, 4, 6, 8]
+
+
+#Using map with lambda
+num=[1,2,3,4,5,6,7,8,9]
+a=map(lambda x:x*x,num)
+print(list(a))
