@@ -63,3 +63,25 @@ print(list(a))    #[2, 4, 6, 8]
 num=[1,2,3,4,5,6,7,8,9]
 a=map(lambda x:x*x,num)
 print(list(a))
+
+# def func(x,y,z):
+#     return x*y+z
+# a=int(input("Enter the first number"))
+# b=int(input("Enter the second number"))
+# c=int(input("Enter the third number"))
+# print(func(a,b,c))
+
+     #OR 
+    
+# k=int(input("Enter"))
+# b=int(input("Enter"))
+# c=int(input("Enter"))
+# a=(lambda x,y,z:x*y+z)(k,b,c)
+# print(a)
+
+    #OR directly
+    
+a=(lambda x,y,z:x*y+z)(1,2,3)
+print(a)
+
+
