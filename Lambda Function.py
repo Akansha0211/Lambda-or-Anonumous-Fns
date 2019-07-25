@@ -52,3 +52,8 @@ print(a)
 num=[0,1,2,3,4,5,6,7,8,9]
 a=sorted(num, key=lambda x: x%2)
 print(a)
+
+#Using filter function along with lambda function
+num=[1,2,3,4,5,6,7,8,9]
+a=filter(lambda x: True if x%2==0 else False,num)
+print(list(a))    #[2, 4, 6, 8]
