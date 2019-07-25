@@ -84,4 +84,21 @@ print(list(a))
 a=(lambda x,y,z:x*y+z)(1,2,3)
 print(a)
 
+# def func(x):
+#     if x==1:
+#         return "one"
+#     elif x==2:
+#         return "two"
+#     elif x==3:
+#         return "three"
+#     else:
+#         return "Invalid input"
+# num=int(input("Enter an integer"))
+# print(func(num))
+
+a=(lambda x: "one" if x==1 else("two" if x==2 else("three"if x==3 else "invalid input")))(3)
+print(a)
+
+
+
 
