@@ -40,3 +40,11 @@
 
 #This is a part of functools  module.
 
+
+#using sorted
+def fn(x):
+    return x%2
+num=[0,1,2,3,4]
+a=sorted(num , key = fn)
+print(a)
+
