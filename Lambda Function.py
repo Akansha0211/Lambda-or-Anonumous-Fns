@@ -48,3 +48,7 @@ num=[0,1,2,3,4]
 a=sorted(num , key = fn)
 print(a)
 
+#using sorted with lambda
+num=[0,1,2,3,4,5,6,7,8,9]
+a=sorted(num, key=lambda x: x%2)
+print(a)
